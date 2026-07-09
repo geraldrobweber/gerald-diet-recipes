@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geralds Rezeptbibliothek v1</title>
+<style>
+:root { color-scheme: light; --max: 820px; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.55; margin: 0; background: #fafafa; color: #222; }
+header { background: #fff; border-bottom: 1px solid #ddd; padding: 28px 20px; }
+main { max-width: var(--max); margin: 0 auto; padding: 28px 20px 60px; background: #fff; min-height: 100vh; }
+h1 { margin: 0 0 8px; font-size: 2rem; }
+h2 { margin-top: 32px; }
+a { color: #1259a7; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.meta { color: #666; margin: 0 0 18px; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 22px; padding: 0; }
+.tags li { list-style: none; background: #eef2f4; padding: 4px 9px; border-radius: 999px; font-size: .9rem; }
+.card-list { padding-left: 0; }
+.card-list li { list-style: none; border: 1px solid #ddd; border-radius: 12px; padding: 14px 16px; margin: 12px 0; background: #fff; }
+.note { border-left: 4px solid #bbb; padding: 10px 14px; background: #f5f5f5; }
+small { color: #777; }
+.back { display: inline-block; margin-bottom: 20px; }
+ol li, ul li { margin-bottom: 7px; }
+</style>
+</head>
+<body>
+<header>
+  <div style="max-width: var(--max); margin: 0 auto;">
+    <h1>Geralds Rezeptbibliothek v1</h1>
+    <p class="meta">Geralds Diät-Rezeptbibliothek v1 · Choosy-Import-Seiten</p>
+  </div>
+</header>
+<main>
+
+<p>Diese Website enthält 14 einzelne Rezeptseiten. Jede Rezeptseite enthält strukturiertes <code>Recipe</code>-Markup, damit ein Rezeptimport per Weblink möglichst gut funktionieren kann.</p>
+<p><strong>Wichtig:</strong> Choosy muss die Seiten online erreichen können. Lokal geöffnete Dateien funktionieren für einen Link-Import in der Regel nicht. Du kannst den Ordner z. B. über Netlify, Vercel, GitHub Pages oder deinen eigenen kleinen Webserver veröffentlichen.</p>
+
+<h2>Rezepte</h2>
+<ul class="card-list">
+<li><a href="rezepte/poulet-bohnen-pfanne.html"><strong>Poulet-Bohnen-Pfanne</strong></a><br><small>Abendessen / Diät-Standard · 2 Portionen · proteinreich, schnell, sättigend, low carb, Gerald-Favorit</small></li><li><a href="rezepte/zitronen-risotto-lachs-fenchel.html"><strong>Zitronen-Risotto mit Lachs und Fenchel</strong></a><br><small>Besonderes Abendessen / Wochenendgericht · 2 Portionen · Fisch, Risotto, Lieblingsgericht, sättigend, Genussgericht</small></li><li><a href="rezepte/gurkensuppe-mit-ei.html"><strong>Gurkensuppe mit Ei</strong></a><br><small>Mittagessen / Meal Prep · ca. 3 Portionen · Suppe, leicht, Meal Prep, Sommer, proteinergänzt</small></li><li><a href="rezepte/paprikasuppe-mit-hack.html"><strong>Paprikasuppe mit Hack</strong></a><br><small>Mittagessen / Meal Prep · ca. 3 Portionen · Suppe, proteinreich, Meal Prep, Gemüse, Rind</small></li><li><a href="rezepte/tomaten-linsen-suppe.html"><strong>Tomaten-Linsen-Suppe</strong></a><br><small>Mittagessen / Meal Prep · ca. 3 Portionen · Suppe, vegetarisch, Hülsenfrüchte, sättigend, Meal Prep</small></li><li><a href="rezepte/grill-steak-mit-gemuese.html"><strong>Grill-Steak mit Gemüse</strong></a><br><small>Abendessen / Grill · 1–2 Portionen · Grill, proteinreich, low carb, schnell, Sommer</small></li><li><a href="rezepte/eiermuffins.html"><strong>Eiermuffins</strong></a><br><small>Frühstück / Backup / Meal Prep · ca. 6 Muffins · Eier, proteinreich, Frühstück, Meal Prep, schnell</small></li><li><a href="rezepte/rinderschulter-reis-tomatensauce-oliven.html"><strong>Rinderschulter mit Reis, Tomatensauce und Oliven</strong></a><br><small>Abendessen / Schmorgericht · ca. 2–3 Portionen · Rind, Reis, Tomate, Oliven, sättigend, Wochenendgericht</small></li><li><a href="rezepte/thunfisch-mit-ofengemuese.html"><strong>Thunfisch mit Ofengemüse</strong></a><br><small>Abendessen / Fisch · 1–2 Portionen · Fisch, Ofengericht, proteinreich, Gemüse, leicht</small></li><li><a href="rezepte/wedges.html"><strong>Wedges</strong></a><br><small>Beilage · 2 Portionen · Kartoffeln, Ofen, Beilage, kontrollierte Kohlenhydrate</small></li><li><a href="rezepte/blumenkohl-zucchetti-suppe.html"><strong>Blumenkohl-Zucchetti-Suppe</strong></a><br><small>Suppe / Meal Prep · ca. 3 Portionen · Suppe, leicht, Gemüse, Meal Prep, low carb</small></li><li><a href="rezepte/karotte-sellerie-suppe.html"><strong>Karotte-Sellerie-Suppe</strong></a><br><small>Suppe / Meal Prep · ca. 3 Portionen · Suppe, Gemüse, Meal Prep, leicht</small></li><li><a href="rezepte/spargel-erbsen-suppe.html"><strong>Spargel-Erbsen-Suppe</strong></a><br><small>Suppe / Meal Prep · ca. 3 Portionen · Suppe, Gemüse, Frühling, Meal Prep</small></li><li><a href="rezepte/skyr-mit-obst.html"><strong>Skyr mit Obst</strong></a><br><small>Frühstück / leichtes Mittagessen / Backup · 1 Portion · Frühstück, proteinreich, schnell, Diät-Standard, kalt, süss</small></li>
+</ul>
+
+</main>
+</body>
+</html>
